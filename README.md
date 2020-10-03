@@ -1,0 +1,1 @@
+# GenericRepositoryPatternCore2.2
