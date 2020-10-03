@@ -12049,17 +12049,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AMINUR\\.nuget\\packages\\": {}
+    "C:\\Users\\AMINUR\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AMINUR\\Desktop\\Delete\\RepositoryPatternCore\\RepositoryPatternCore\\RepositoryPatternCore.csproj",
+      "projectUniqueName": "H:\\Git\\GenericRepositoryPatternCore2.2\\RepositoryPatternCore\\RepositoryPatternCore\\RepositoryPatternCore.csproj",
       "projectName": "RepositoryPatternCore",
-      "projectPath": "C:\\Users\\AMINUR\\Desktop\\Delete\\RepositoryPatternCore\\RepositoryPatternCore\\RepositoryPatternCore.csproj",
+      "projectPath": "H:\\Git\\GenericRepositoryPatternCore2.2\\RepositoryPatternCore\\RepositoryPatternCore\\RepositoryPatternCore.csproj",
       "packagesPath": "C:\\Users\\AMINUR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AMINUR\\Desktop\\Delete\\RepositoryPatternCore\\RepositoryPatternCore\\obj\\",
+      "outputPath": "H:\\Git\\GenericRepositoryPatternCore2.2\\RepositoryPatternCore\\RepositoryPatternCore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\AMINUR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

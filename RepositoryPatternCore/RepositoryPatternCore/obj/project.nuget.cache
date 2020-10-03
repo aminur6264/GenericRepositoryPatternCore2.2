@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NANjk2qcXGezl+9V0P0clXExxxrTrnpgKIqkAPaSvSXLr1BllefcFVKcCFWGER1WumNZWGXxyMLrewgwbcuT1w==",
+  "dgSpecHash": "0LvUN28vozYH0Nc8A5lRW02AJp6pusRuUOHXyIDFE0qiDGwZw1d27dKJaTTt+hARAjzFWG7gB/kwMU1GX6PkSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AMINUR\\Desktop\\Delete\\RepositoryPatternCore\\RepositoryPatternCore\\RepositoryPatternCore.csproj",
+  "projectFilePath": "H:\\Git\\GenericRepositoryPatternCore2.2\\RepositoryPatternCore\\RepositoryPatternCore\\RepositoryPatternCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AMINUR\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\AMINUR\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

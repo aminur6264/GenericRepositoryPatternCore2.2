@@ -1,0 +1,34 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Home Page";
+    Product product = Model;
+}
+
+<div class="text-center">
+    @if (product.Id == 0)
+    {
+        <h1 class="display-4">New Product</h1>
+    }
+    else
+    {
+        <h1 class="display-4">Update Product</h1>
+    }
+
+</div>
+
+<div class="row">
+
+</div>
+<div class="row text-center">
+    <a href="@Url.Action("Index","Product")" class="btn btn-primary">Back To List</a>
+    &nbsp;
+    @if (product.Id == 0)
+    {
+        <a href="@Url.Action("Index","Product")" class="btn btn-success">Save</a>
+    }
+    else
+    {
+        <a href="@Url.Action("Index","Product")" class="btn btn-warning">Update</a>
+    }
+</div>
