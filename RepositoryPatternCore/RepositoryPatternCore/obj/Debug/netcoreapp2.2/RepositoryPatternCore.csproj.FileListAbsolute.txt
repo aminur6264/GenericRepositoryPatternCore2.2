@@ -98,3 +98,4 @@ H:\Git\GenericRepositoryPatternCore2.2\RepositoryPatternCore\RepositoryPatternCo
 H:\Git\GenericRepositoryPatternCore2.2\RepositoryPatternCore\RepositoryPatternCore\obj\Debug\netcoreapp2.2\RepositoryPatternCore.csproj.CopyComplete
 H:\Git\GenericRepositoryPatternCore2.2\RepositoryPatternCore\RepositoryPatternCore\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.cshtml.g.cs
 H:\Git\GenericRepositoryPatternCore2.2\RepositoryPatternCore\RepositoryPatternCore\obj\Debug\netcoreapp2.2\Razor\Views\Product\NewProduct.cshtml.g.cs
+H:\Git\GenericRepositoryPatternCore2.2\RepositoryPatternCore\RepositoryPatternCore\obj\Debug\netcoreapp2.2\Razor\Views\Product\DeleteProduct.cshtml.g.cs

@@ -23,42 +23,42 @@
 </div>
 
 <div class="well">
-    @using (Html.BeginForm("NewProduct", "Product"))
+    @using (Html.BeginForm("DeleteProduct", "Product"))
     {
         <div class="row">
+            <div class="col-md-3 text-center">
+                @Html.LabelFor(model => model.Id, new { @class = "control-lavel pading-10" })
+            </div>
+            <div class="col-md-9">
+                @Html.DisplayTextFor(model => model.Id)
+            </div>
+
             <div class="col-md-3 text-center">
                 @Html.LabelFor(model => model.Name, new { @class = "control-lavel pading-10" })
             </div>
             <div class="col-md-9">
-                @Html.TextBoxFor(model => model.Name, new { @class = "form-control pading-10" })
+                @Html.DisplayTextFor(model => model.Name)
             </div>
 
             <div class="col-md-3 text-center">
                 @Html.LabelFor(model => model.Brand, new { @class = "control-lavel pading-10" })
             </div>
             <div class="col-md-9">
-                @Html.TextBoxFor(model => model.Brand, new { @class = "form-control pading-10" })
+                @Html.DisplayTextFor(model => model.Brand)
             </div>
 
             <div class="col-md-3 text-center">
                 @Html.LabelFor(model => model.Price, new { @class = "control-lavel pading-10" })
             </div>
             <div class="col-md-9">
-                @Html.TextBoxFor(model => model.Price, new { @class = "form-control pading-10" })
+                @Html.DisplayTextFor(model => model.Price)
             </div>
         </div>
         <div class="row">
             <div style="width:200px;margin:0px auto">
                 <a href="@Url.Action("Index","Product")" class="btn btn-primary">Back To List</a>
-                &nbsp;
-                @if (product.Id == 0)
-                {
-                    <button type="submit" class="btn btn-success">Save</button>
-                }
-                else
-                {
-                    <button type="submit" class="btn btn-warning">Update</button>
-                }
+
+                <button type="submit" class="btn btn-danger">Delete</button>
             </div>
 
         </div>

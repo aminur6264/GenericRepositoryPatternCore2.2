@@ -19,7 +19,7 @@
                 <th>Name</th>
                 <th>Brand</th>
                 <th>Price</th>
-                <th>Action</th>
+                <th style="width:180px">Action</th>
             </tr>
         </thead>
         <tbody>
@@ -32,7 +32,7 @@
                     <td>@item.Price</td>
                     <td>
                         <a href="@Url.Action("NewProduct","Product", new { id = item.Id })" class="btn btn-warning">Update</a>
-
+                        <a href="@Url.Action("DeleteProduct","Product", new { id = item.Id })" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
             }
