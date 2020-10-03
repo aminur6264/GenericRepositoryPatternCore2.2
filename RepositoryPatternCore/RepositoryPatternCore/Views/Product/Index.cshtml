@@ -9,7 +9,7 @@
 
 </div>
 <div class="row">
-    <a href="@Url.Action("NewProduct","Product")" class="btn btn-primary">New</a>
+    <a href="@Url.Action("NewProduct","Product")" class="btn btn-primary" style="margin-bottom:10px">New</a>
 </div>
 <div class="row">
     <table class="table table-bordered table-hover">
@@ -25,13 +25,16 @@
         <tbody>
             @foreach (Product item in Model)
             {
-            <tr>
-                <td>@item.Id</td>
-                <td>@item.Name</td>
-                <td>@item.Brand</td>
-                <td>@item.Price</td>
-                <td>@item.Price</td>
-            </tr>
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Brand</td>
+                    <td>@item.Price</td>
+                    <td>
+                        <a href="@Url.Action("NewProduct","Product", new { id = item.Id })" class="btn btn-warning">Update</a>
+
+                    </td>
+                </tr>
             }
         </tbody>
     </table>
